@@ -18,6 +18,12 @@ $( document ).ready(function() {
     	$('.form-mask').fadeIn(300);
     	$('#registration').fadeIn(300);
     })
+  
+  $('.one-click').click(function(){
+      event.preventDefault();
+      $('.form-mask').fadeIn(300);
+      $('#one-click').fadeIn(300);
+    })
 
     $('.add-basket').click(function(){
     	event.preventDefault();

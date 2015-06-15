@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<title>Basket</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" >
+	<meta name="description" content="">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/nivo-slider-item.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.less">
+	<script src="js/less.min.js"></script>
+	<script src="js/modernizr-2.8.3.min.js"></script>	
+</head>
+<body>
+
+<div class="top-panel">
+	<div class="container">
+		<ul class="clearfix">
+			<li><a href="#" class="enter-link">Вход</a></li>
+			<li><a class="register-link">Регистрация</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="header">
+	<div class="container clearfix">
+		<div class="col-33">
+			<div class="mode">
+				<span>Режим работы:</span> <br>
+				Пн-Пт с 9:00 до 19:00
+			</div>
+		</div>
+		<div class="col-33">
+			<div class="logo">
+				<a href="#">
+					<p>
+						<img src="images/flag.png" alt="">
+						<span>Bags</span>
+						<span>Milano</span> 
+					</p>
+				</a>
+				<p>магазин модных сумок с видеообзорами</p>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="col-33">
+			<div class="telephone">
+				<p>+7 (846) 321 25 44</p>
+				<a class="get-call-link">Заказать звонок</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<div class="menu">
+	<div class="container clearfix">
+		<nav>
+			<ul class="clearfix">
+				<li class="active"><a href="#">главная</a></li>
+				<li><a href="#">о компании</a></li>
+				<li><a href="#">условия доставки</a></li>
+				<li><a href="#">контакты</a></li>
+				<li><a href="#">оплата</a></li>
+			</ul>
+		</nav>
+		<a href="#" class="basket-link">
+			<span class="basket-icon"></span>
+			<span class="basket-text">в корзине подарок</span>
+		</a>
+	</div>
+</div>
+<div class="main">
+	<div class="container">
+		<div class="breadcrumbs">
+			<ul class="clearfix">
+				<li>
+					<a href="#">Главная</a>
+					<span class="b-arrow">
+						<img src="images/icons/b-arrow.png" alt="">
+					</span>
+				</li>
+				<li>Корзина</li>
+			</ul>
+		</div>
+		<div class="content content-basket">
+			<div class="quality-detail">
+				<div class="qual-block">
+					<img src="images/icons/qual-1.png" alt="">
+					<p>Бесплатная доставка по всей России</p>
+				</div>
+				<div class="qual-block">
+					<img src="images/icons/qual-2.png" alt="">
+					<p>Видеообзоры для каждого товара</p>
+				</div>
+				<div class="qual-block">
+					<img src="images/icons/qual-3.png" alt="">
+					<p>Привозим для примерки до 5 товаров</p>
+				</div>
+				<div class="qual-block">
+					<img src="images/icons/qual-4.png" alt="">
+					<p>Возврат средств, если товар не подошел</p>
+				</div>
+			</div>
+			<h2>В корзине 1 товар</h2>
+			<div class="basket-wrapper">
+				<div class="basket-table">
+					<table>
+						<thead>
+							<tr>
+								<td></td>
+								<td style="padding-right:95px;">Товар</td>
+								<td>Цена</td>
+								<td>Количество</td>
+								<td>Итого</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td width="100">
+									<div class="tovar-cell">
+										<img src="images/tovar.png" alt="">
+									</div>
+								</td>
+								<td width="280" style="text-align:left">
+									Женская сумка Fendi 2358
+								</td>
+								<td>
+									<span class="price">5300 руб</span>
+								</td>
+								<td width="190">
+									<div class="amount-input">
+										<input type="text" value="1" class="am-input">
+										<a href="#" class="top-amount"></a>
+										<a href="#" class="bot-amount"></a>
+									</div>
+								</td>
+								<td>
+									<span class="price">5300 руб</span>
+								</td>
+								<td>
+									<span class="delete">
+										<img src="images/icons/closed.png" alt="">
+									</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="delivery-method">
+					<h3>Выберите способ доставки</h3>
+					<div class="method-block">
+						<div class="title">
+							<input type="radio" checked="checked" name="courier" id="courier">
+							<label for="courier"><span>Бесплатно:</span> курьерская доставка (в пределах МКАД)</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- main -->
+
+
+<div class="form-mask"></div>
+<div class="modal" id="get-call">
+	<div class="closed"><img src="images/icons/closed.png" alt=""></div>
+	<div class="title">Заказать бесплатный звонок</div>
+	<form class="clearfix">
+		<div class="input-block i-name-block">
+			<input type="text" placeholder="Ваше имя" class="input-name">
+		</div>
+		<div class="input-block i-tel-block">
+			<input type="text" placeholder="Номер телефона" class="input-tel">
+		</div>
+		<div class="clear"></div>
+		<input type="submit" value="заказать звонок">
+		<div class="protected">
+			<img src="images/icons/green-lock.png" alt="">
+			<span>Ваши данные защищены</span>
+		</div>
+	</form>
+</div>
+
+<div class="modal" id="one-click">
+	<div class="closed"><img src="images/icons/closed.png" alt=""></div>
+	<div class="title">
+	<p>Введите номер своего телефона.</p>
+	Мы свяжемся с Вами для оформления заказа.</div>
+	<form class="clearfix">
+		<div class="input-block i-name-block">
+			<input type="text" placeholder="Номер телефона" class="input-tel">
+		</div>
+		<div class="input-block i-tel-block">
+			<input type="submit" value="Отправить">
+		</div>
+		<div class="clear"></div>
+		<div class="protected">
+			<img src="images/icons/green-lock.png" alt="">
+			<span>Ваши данные защищены</span>
+		</div>
+	</form>
+</div>
+
+<div class="modal" id="video-click">
+	<div class="closed"><img src="images/icons/closed.png" alt=""></div>
+	<div class="title">
+	<p>Видеообзор в процессе производства. Пожалуйста, оставьте</p>
+	<p>имя и E-mail и мы сообщим о готовности </p>
+	(предположительно: в течении 3 суток).</div>
+	<form class="clearfix">
+		<div class="input-block i-name-block">
+			<input type="text" placeholder="Ваше имя" class="input-name">
+		</div>
+		<div class="input-block i-tel-block">
+			<input type="text" placeholder="E-mail" class="input-email">
+		</div>
+		<div class="clear"></div>
+		<input type="submit" value="отправить">
+		<div class="protected">
+			<img src="images/icons/green-lock.png" alt="">
+			<span>Ваши данные защищены</span>
+		</div>
+	</form>
+</div>
+
+
+<div class="modal" id="added">
+	<div class="closed"><img src="images/icons/closed.png" alt=""></div>
+	<div class="title">Товар добавлен в корзину</div>
+	<table>
+		<thead>
+			<tr>
+				<td></td>
+				<td style="padding-right:95px;">Товар</td>
+				<td>Цена</td>
+				<td>Количество</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td width="100">
+					<div class="tovar-cell">
+						<img src="images/tovar.png" alt="">
+					</div>
+				</td>
+				<td width="280" style="text-align:left">
+					Женская сумка Fendi 2358
+				</td>
+				<td>
+					<span class="price">5300 руб</span>
+				</td>
+				<td width="190">
+					<div class="amount-input">
+						<input type="text" value="1" class="am-input">
+						<a href="#" class="top-amount"></a>
+						<a href="#" class="bot-amount"></a>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="after-table clearfix">
+		<a href="#" class="checkout">Оформить заказ</a>
+		<a href="#" class="continue">продолжить покупки</a>
+	</div>
+</div>
+
+<div class="modal" id="registration">
+	<div class="closed"><img src="images/icons/closed.png" alt=""></div>
+	<div class="title">Регистрация на сайте</div>
+	<form>
+		<div class="input-block">
+			<input type="text" placeholder="Ваше имя" class="input-name">
+		</div>
+		<div class="input-block">
+			<input type="text" placeholder="E-mail" class="input-email">
+		</div>
+		<div class="input-block">
+			<input type="password" placeholder="Пароль" class="input-password">
+		</div>
+
+		<input type="submit" value="Зарегестрироваться">
+		<div class="protected">
+			<img src="images/icons/green-lock.png" alt="">
+			<span>Ваши данные защищены</span>
+		</div>
+	</form>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
