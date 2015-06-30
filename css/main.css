@@ -400,6 +400,7 @@ nav li a {
   -webkit-transition: 0.2s all linear;
   -moz-transition: 0.2s all linear;
   transition: 0.2s all linear;
+  cursor: pointer;
 }
 .item-block .add-basket:hover {
   background-color: #bf243c;
@@ -423,6 +424,7 @@ nav li a {
   -webkit-transition: 0.2s all linear;
   -moz-transition: 0.2s all linear;
   transition: 0.2s all linear;
+  cursor: pointer;
 }
 .item-block .one-click:hover {
   background-color: #058165;
